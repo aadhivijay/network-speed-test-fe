@@ -1,0 +1,90 @@
+.page-header {
+    background-color: var(--primary);
+    margin: 1em;
+    height: 3em;
+    align-items: center;
+    box-shadow: 0px 0px 10px var(--sec-color);
+}
+
+.page-title {
+    font-size: 1em;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+}
+
+.meter-cont {
+    width: 10em;
+    height: 10em;
+    margin: 3em auto;
+    align-items: center;
+    border-radius: 50%;
+    border: 6px solid var(--primary);
+}
+
+.meter-cont-low {
+    border-color: var(--low);
+    box-shadow: inset 0px 0px 10px var(--low);
+}
+
+.meter-cont-low .speed {
+    color: var(--low);
+}
+
+.meter-cont-medium {
+    border-color: var(--medium);
+    box-shadow: inset 0px 0px 10px var(--medium);
+}
+
+.meter-cont-medium .speed {
+    color: var(--medium);
+}
+
+.meter-cont-high {
+    border-color: var(--high);
+    box-shadow: inset 0px 0px 10px var(--high);
+}
+
+.meter-cont-high .speed {
+    color: var(--high);
+}
+
+.speed {
+    font-size: 1.8em;
+}
+
+.metric {
+    font-size: 0.9em;
+}
+
+.title {
+    font-size: 0.75em;
+    color: var(--sec-color);
+    letter-spacing: 3px;
+}
+
+.page-footer {
+    background-color: var(--secondary);
+    margin: 1em;
+    height: 30%;
+    align-items: center;
+    box-shadow: 0px 0px 10px var(--sec-color);
+}
+
+.page-footer .title {
+    color: var(--primary);
+    padding: 10px;
+    text-decoration: unset;
+    font-size: 0.6em;
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .page-footer {
+        flex-direction: column;
+    }
+
+}
